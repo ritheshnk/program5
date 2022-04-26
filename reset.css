@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+}
+
+header, body, footer,hgroup,nav ,article,section, figure, figcaption,h1,h2,h3,ul, li ,div , img, p{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+header, footer{
+    color:white;
+    padding: 1em;
+    background-color: #395563;
+    margin: 0em 4em 0.5em 4em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color: rgb(29, 55, 80);
+    border: 1px solid black;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color:skyblue;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+main {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 65px;
+    margin-left: 65px;
+    background-color: white;
+    }
+  section p {
+	margin-bottom: 1em;
+}
+#sharebox {
+	padding: .5em;
+	width: 500px;
+	border-radius: 4px;
+}
+span.share {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -120px -72px;
+    padding-right: 5px;
+    }
+    h1 {
+        font-size: 2em;
+        font-weight: 500;
+    }
+    h2 {
+        font-size: 1.5em;
+        font-weight: 100;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    section>h3 {
+    
+        border-bottom: .05em solid;
+        margin-top: 1em;
+    }
+    h3+* {
+        margin-top: 1em;
+    }
+    .spacing {
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    footer, header>div {
+        padding: 1em;
+    }
+    article {
+        color: #121d21;
+        background-color: #ffffff;
+        margin: 0em 4em 0.5em 4em;
+        padding: 1em;
+    }
+    
+    
+    h1, h2, h3, nav, footer {
+        font-family: "Trebucchet MS", "Lucida Grande", Tahoma, sans-serif;
+    }
+    nav ul li {
+        list-style: none;
+        display: inline;
+        padding: 1em;
+        line-height: 2em;
+    }
+    nav {
+        background-color: #bdd3db;
+        font-weight: bold;
+    }
+
+  h3{
+      border: 2px solid black;
+      background-color: rgb(29, 55, 80);
+      margin-right: 65px;
+      margin-left: 65px;
+    }
+    h1{
+        border: 2px solid black;
+        background-color: rgb(41, 83, 122);
+
+      }
+div.actions{
+    border: 2px solid black;
+    margin-right: 65px;
+    margin-left: 65px;
+        background-color: rgb(41, 83, 122);
+}
+p{
+    margin-right: 65px;
+    margin-left: 65px;
+}
+    
+
+ section {
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+  }
+  div.willsmith{
+    border: 2px solid black;
+    margin-right: 569px;
+    margin-left: 500px;
+    
+  }
